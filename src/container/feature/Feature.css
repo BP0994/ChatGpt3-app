@@ -1,0 +1,103 @@
+
+.gpt3__features {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          flex-wrap: wrap;
+          align-items: center;
+
+          padding: 4rem 6rem;
+          width: 100%;
+}
+
+.gpt3__features-div{
+          
+    filter: blur(259px);
+    border-radius: 0 600px 600px 0;
+    left: 0;
+    position: absolute;
+    width: 250px;
+    height: 900px;
+    background-color: rgb(20, 109, 205);
+}
+
+.gpt3__features-header {
+          justify-content: flex-start;
+          margin:2rem 2rem 4rem 2rem;
+}
+
+.gpt3__features-header h1 {
+          font-size: 34px;
+          line-height: 40px;
+          margin: 0 0 2rem 0;
+          
+}
+
+.gpt3__features-header p {
+          color: var(--color-subtext);
+}
+
+.gpt3__features-feature {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          gap: 2rem;
+}
+
+@media screen and ( max-width : 1050px ) {
+          .gpt3__features {
+                    padding: 4rem 6rem;
+          }
+
+          .gpt3__features-header {
+                    padding: 2rem 1rem;
+                    margin: 0 0 0 0;
+          }
+
+          .gpt3__features-feature {
+                    gap: 0 ;
+          }
+}
+
+@media screen and ( max-width : 650px ) {
+          .gpt3__features {
+                    padding: 4rem;
+          }
+
+          .gpt3__features-header {
+                    padding: 0rem;
+                    margin: 0 0 4rem 0;
+          }
+
+          .gpt3__features-feature {
+                    gap: 0.3rem;
+          }
+}
+
+@media screen and (max-width:490px) {
+          .gpt3__features {
+                    padding: 4rem;
+          }
+
+          .gpt3__features-header {
+                    padding: 0rem;
+                    margin: 0 0 1rem 0;
+                    
+          }
+
+          .gpt3__features-header h1 {
+                     font-size: 24px;
+                     line-height: 30px;
+                     margin: 0 0 0 0 ;
+          }
+
+          .gpt3__features-header p {
+                    font-size: 12px;
+                    line-height: 30px;
+         }
+
+          .gpt3__features-feature {
+                    gap: 0.8rem ;
+          }
+}
+
